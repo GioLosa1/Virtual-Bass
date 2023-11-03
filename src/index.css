@@ -212,6 +212,7 @@ code {
   .bassneck-body {
     height: 150px;
     padding: 5px;
+    padding-top: 50px;
   }
 }
 @media only screen and (max-width: 400px) {
