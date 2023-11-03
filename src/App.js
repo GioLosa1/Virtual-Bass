@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Bassneck from "./components/Bass-neck";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="img-div">
+        <img className="img-head" src= {process.env.PUBLIC_URL + "/sterling.png"}
+         />
+      
+      </div>
+      
+
+      <div className="bassneck-body">
+        <Bassneck />
+      </div>
     </div>
   );
 }
