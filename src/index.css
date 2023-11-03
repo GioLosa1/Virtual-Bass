@@ -17,6 +17,7 @@ code {
 .bassneck-body {
   padding: 80px;
   padding-right: 60px;
+  padding-top: 150px;
 }
 .bass-neck {
   background-color: rgb(51, 47, 47);
@@ -192,7 +193,8 @@ code {
   .bassneck-body {
     height: 250px;
     flex-grow: 1;
-    padding: 30px;
+    padding: 10px;
+    padding-top: 50px;
   }
   .bass-neck {
     height: 200px;
@@ -202,6 +204,10 @@ code {
   }
   .first-fret {
     gap: 5px;
+  }
+  .dots-double {
+    justify-content: center;
+    gap: 85px;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -217,7 +223,25 @@ code {
   .img-div {
     padding: 0;
   } 
-
+  .bass-neck > ul > li > .dots {
+    position: absolute;
+    transform: translateY(-90%);
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #a3a3a3;
+  }
+  
+  
+  .bass-neck > ul > li .dots-double span:last-child {
+    width: 12px;
+    height: 12px;
+  }
+  .bass-neck > ul > li .dots-double span:first-child {
+    width: 12px;
+    height: 12px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .img-div {
@@ -268,22 +292,31 @@ code {
   }
   .E {
     height: 10px;
+  }.bass-neck > ul > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+    border-right: 4px solid #bbbbbbe7;
   }
   .bass-neck > ul > li > .dots {
     position: absolute;
     transform: translateY(-90%);
     top: 50%;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: #a3a3a3;
   }
+  
+  
   .bass-neck > ul > li .dots-double span:last-child {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
   }
   .bass-neck > ul > li .dots-double span:first-child {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
   }
 }
