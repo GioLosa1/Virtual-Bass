@@ -215,6 +215,10 @@ code {
   }
 }
 @media only screen and (max-width: 400px) {
+  .img-div {
+    padding: 0;
+  } 
+
   .img-head {
     height: 50px;
     width: 120px;
@@ -234,7 +238,7 @@ code {
   .bassneck-body {
     height: 150px;
     padding: 5px;
-    padding-left: 20px;
+    
     padding-top: 40px;
   }
   .bass-neck {
