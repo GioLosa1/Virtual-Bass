@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Virtual-Bass/static/css/main.264e317b.css",
-    "main.js": "/Virtual-Bass/static/js/main.ea5d06e6.js",
+    "main.js": "/Virtual-Bass/static/js/main.8136218f.js",
     "static/js/787.53027150.chunk.js": "/Virtual-Bass/static/js/787.53027150.chunk.js",
     "static/media/G.wav": "/Virtual-Bass/static/media/G.b266dcb7d4970f4f4475.wav",
     "static/media/A.wav": "/Virtual-Bass/static/media/A.061a4033613ffc91dc4b.wav",
     "static/media/D.wav": "/Virtual-Bass/static/media/D.5def4f264567122e40de.wav",
     "index.html": "/Virtual-Bass/index.html",
     "main.264e317b.css.map": "/Virtual-Bass/static/css/main.264e317b.css.map",
-    "main.ea5d06e6.js.map": "/Virtual-Bass/static/js/main.ea5d06e6.js.map",
+    "main.8136218f.js.map": "/Virtual-Bass/static/js/main.8136218f.js.map",
     "787.53027150.chunk.js.map": "/Virtual-Bass/static/js/787.53027150.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.264e317b.css",
-    "static/js/main.ea5d06e6.js"
+    "static/js/main.8136218f.js"
   ]
 }
