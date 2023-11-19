@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import audioG from "../assets/G.wav";
-import audioD from "../assets/D.mp3";
-import audioA from "../assets/A.mp3";
+import audioD from "../assets/D.wav";
+import audioA from "../assets/A.wav";
 
 function Openfret() {
   const [currentAudio, setCurrentAudio] = useState(null);
