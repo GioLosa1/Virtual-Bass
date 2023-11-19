@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Virtual-Bass/static/css/main.264e317b.css",
-    "main.js": "/Virtual-Bass/static/js/main.a74c8df8.js",
+    "main.js": "/Virtual-Bass/static/js/main.ea5d06e6.js",
     "static/js/787.53027150.chunk.js": "/Virtual-Bass/static/js/787.53027150.chunk.js",
     "static/media/G.wav": "/Virtual-Bass/static/media/G.b266dcb7d4970f4f4475.wav",
-    "static/media/A.mp3": "/Virtual-Bass/static/media/A.5d4eafb56eb59fa9c91f.mp3",
-    "static/media/D.mp3": "/Virtual-Bass/static/media/D.c9992a910cc1e28ff4a7.mp3",
+    "static/media/A.wav": "/Virtual-Bass/static/media/A.061a4033613ffc91dc4b.wav",
+    "static/media/D.wav": "/Virtual-Bass/static/media/D.5def4f264567122e40de.wav",
     "index.html": "/Virtual-Bass/index.html",
     "main.264e317b.css.map": "/Virtual-Bass/static/css/main.264e317b.css.map",
-    "main.a74c8df8.js.map": "/Virtual-Bass/static/js/main.a74c8df8.js.map",
+    "main.ea5d06e6.js.map": "/Virtual-Bass/static/js/main.ea5d06e6.js.map",
     "787.53027150.chunk.js.map": "/Virtual-Bass/static/js/787.53027150.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.264e317b.css",
-    "static/js/main.a74c8df8.js"
+    "static/js/main.ea5d06e6.js"
   ]
 }
