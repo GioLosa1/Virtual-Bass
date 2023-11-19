@@ -16,21 +16,27 @@ code {
 }
 .bassneck-body {
   padding: 20px;
- 
+
   padding-top: 150px;
 }
 .bass-neck {
   background-color: rgb(51, 47, 47);
   height: 300px;
   position: relative;
+  width: 100%;
 }
 .bass-neck > ul > li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 22px;
   width: 100%;
   align-items: center;
   border-right: 4px solid #bbbbbbe7;
+  cursor: pointer;
+}
+.bass-neck > ul > li > span {
+  height: 20%;
 }
 .first-fret {
   border-right: none !important;
@@ -45,20 +51,36 @@ code {
   color: #f3f3f3;
   margin: auto;
   z-index: 2;
-  gap: 20px;
 }
 .first-fret-note {
-  background-color: rgb(32, 32, 32);
+  background-color: rgba(165, 161, 161, 0.123);
   border-radius: 10px;
-  padding: 4px;
-  padding-top: 1px;
+
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .note-name {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 45px;
+
   z-index: 2;
+}
+button {
+  width: 100%;
+
+  padding: 30px;
+  cursor: pointer;
+  display: flex;
+}
+i {
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 .note-name-G {
   display: flex;
@@ -194,7 +216,7 @@ code {
     height: 250px;
     flex-grow: 1;
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 90px;
   }
   .bass-neck {
     height: 200px;
@@ -209,6 +231,13 @@ code {
     justify-content: center;
     gap: 85px;
   }
+  .first-fret {
+    font-size: 1.1rem;
+    display: block !important;
+    height: 150px;
+    padding-top: -40px;
+    margin-top: -4px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .img-head {
@@ -222,7 +251,7 @@ code {
   }
   .img-div {
     padding: 0;
-  } 
+  }
   .bass-neck > ul > li > .dots {
     position: absolute;
     transform: translateY(-90%);
@@ -232,8 +261,7 @@ code {
     border-radius: 50%;
     background: #a3a3a3;
   }
-  
-  
+
   .bass-neck > ul > li .dots-double span:last-child {
     width: 12px;
     height: 12px;
@@ -246,7 +274,7 @@ code {
 @media only screen and (max-width: 400px) {
   .img-div {
     padding: 0;
-  } 
+  }
 
   .img-head {
     height: 50px;
@@ -263,11 +291,11 @@ code {
     height: 32px;
     padding: 0;
   }
-  
+
   .bassneck-body {
     height: 150px;
     padding: 5px;
-    
+
     padding-top: 40px;
   }
   .bass-neck {
@@ -292,7 +320,8 @@ code {
   }
   .E {
     height: 10px;
-  }.bass-neck > ul > li {
+  }
+  .bass-neck > ul > li {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -309,8 +338,7 @@ code {
     border-radius: 50%;
     background: #a3a3a3;
   }
-  
-  
+
   .bass-neck > ul > li .dots-double span:last-child {
     width: 10px;
     height: 10px;

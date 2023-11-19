@@ -1,45 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Fret () {
-    return (
+// import audio from "../assets/tom-1.mp3";
+// import audio2 from "../assets/e.mp3";
 
 
-      
-        <li className="fret-li"> 
-        <span note="es" className="note-name">
-    <i class="note-name">
-      
-      <span >
-        
+function Fret() {
+
+  return (
+     
+
+     
+    <li className="fret-li" >
+     
+      <span note="es"  className="note-name">
+       
       </span>
-    </i>
-  </span>
-  <span note="as" class="">
-    <i class="note-name">
       
-      <span >
-        
-      </span>
-    </i>
-  </span>
-  <span note="b" class="">
-    <i class="note-name">
       
-      <span >
-        
-      </span>
-    </i>
-  </span>
-  <span note="f" class="">
-    <i class="note-name"><span >
-        
-      </span></i>
-    
-  </span>
-    
-    </li>
-    );
+     
+     <span note="es" className="note-name">
+       
+     </span>
+      
+   </li> 
+  );
 }
 
-
-export default Fret
+export default Fret;
