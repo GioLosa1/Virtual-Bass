@@ -29,14 +29,15 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 22px;
+  gap: 20px;
   width: 100%;
   align-items: center;
   border-right: 4px solid #bbbbbbe7;
   cursor: pointer;
 }
 .bass-neck > ul > li > span {
-  height: 20%;
+  height: 15%;
+  width: 100%;
 }
 .first-fret {
   border-right: none !important;
