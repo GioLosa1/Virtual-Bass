@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Virtual-Bass/static/css/main.5b325d28.css",
-    "main.js": "/Virtual-Bass/static/js/main.c544458f.js",
+    "main.js": "/Virtual-Bass/static/js/main.f77b356e.js",
     "static/js/787.53027150.chunk.js": "/Virtual-Bass/static/js/787.53027150.chunk.js",
     "static/media/G.wav": "/Virtual-Bass/static/media/G.b266dcb7d4970f4f4475.wav",
     "static/media/A312.wav": "/Virtual-Bass/static/media/A312.82fc4a44ac854ee7e968.wav",
@@ -44,11 +44,11 @@
     "static/media/D.wav": "/Virtual-Bass/static/media/D.5def4f264567122e40de.wav",
     "index.html": "/Virtual-Bass/index.html",
     "main.5b325d28.css.map": "/Virtual-Bass/static/css/main.5b325d28.css.map",
-    "main.c544458f.js.map": "/Virtual-Bass/static/js/main.c544458f.js.map",
+    "main.f77b356e.js.map": "/Virtual-Bass/static/js/main.f77b356e.js.map",
     "787.53027150.chunk.js.map": "/Virtual-Bass/static/js/787.53027150.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b325d28.css",
-    "static/js/main.c544458f.js"
+    "static/js/main.f77b356e.js"
   ]
 }
