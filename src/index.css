@@ -234,10 +234,16 @@ i {
   }
   .first-fret {
     font-size: 1.1rem;
-    display: block !important;
-    height: 150px;
-    padding-top: -40px;
-    margin-top: -4px;
+    display: flex !important;
+    width: 80% !important;
+ 
+  }
+  .note-name {
+    height: 100%;
+  }
+  .first-fret-note {
+    height: 32px;
+    padding: 0;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -271,6 +277,19 @@ i {
     width: 12px;
     height: 12px;
   }
+  
+  .first-fret {
+    font-size: 1.1rem;
+    display: flex !important;
+     gap: 10px !important;
+  }
+  .note-name {
+    height: 100% !important;
+  }
+  .first-fret-note {
+    height: 32px;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 400px) {
   .img-div {
@@ -281,15 +300,9 @@ i {
     height: 50px;
     width: 120px;
   }
-  .first-fret {
-    font-size: 1.1rem;
-    display: block !important;
-    height: 150px;
-    padding-top: -40px;
-    margin-top: -4px;
-  }
+ 
   .first-fret-note {
-    height: 32px;
+    height: 22px;
     padding: 0;
   }
 
@@ -348,4 +361,19 @@ i {
     width: 10px;
     height: 10px;
   }
+  .first-fret {
+    font-size: 0.8rem;
+    display: flex !important;
+    gap: 5px !important;
+ 
+  }
+  .note-name {
+    height: 100% !important;
+   
+  }
+  .note-name-E {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
 }
