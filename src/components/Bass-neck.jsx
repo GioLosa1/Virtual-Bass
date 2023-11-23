@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import audioG from "../assets/G.wav";
 import audioD from "../assets/D.wav";
@@ -96,6 +96,30 @@ function Bassneck() {
       }, 500); // Stop the current audio after decreasing volume
     }
   };
+  const handleKeyDown = (event) => {
+    switch (event.key.toLowerCase()) {
+      case "g":
+        playAudio(audioG);
+        break;
+      case "d":
+        playAudio(audioD);
+        break;
+      case "a":
+        playAudio(audioA);
+        break;
+      // Add more cases for other keys and their corresponding audio files here
+      default:
+        break;
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [playAudio, audioG, audioD, audioA]);
   return (
     // open fret
     <div className="bass-neck">
