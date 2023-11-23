@@ -57,7 +57,29 @@ import audioA312 from "../assets/A312.wav";
 
 
 function Bassneck() {
+  const audioFiles = {
+    G: "../assets/G.wav",
+    D: "../assets/D.wav",
+    A: "../assets/A.wav",
+    // Add more audio files as needed
+  };
   const [currentAudio, setCurrentAudio] = useState(null);
+
+  const [audioElements, setAudioElements] = useState({});
+
+  useEffect(() => {
+    const preloadAudio = async () => {
+      const audio = {};
+      for (const key in audioFiles) {
+        const audioElement = new Audio(audioFiles[key]);
+        audioElement.preload = "auto";
+        audio[key] = audioElement;
+      }
+      setAudioElements(audio);
+    };
+
+    preloadAudio();
+  }, []);
 
   const playAudio = async (audio) => {
     if (currentAudio) {
