@@ -1,5 +1,8 @@
-import "./App.css";
-import Bassneck from "./components/Bass-neck";
+
+
+import React, { Suspense, lazy } from 'react';
+
+const Bassneck = lazy(() => import('./components/Bass-neck'));
 
 function App() {
   return (
@@ -9,11 +12,9 @@ function App() {
          />
       
       </div>
-      
-
-      <div className="bassneck-body">
+      <Suspense fallback={<div>Loading...</div>}>
         <Bassneck />
-      </div>
+      </Suspense>
     </div>
   );
 }

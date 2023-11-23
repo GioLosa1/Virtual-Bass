@@ -57,12 +57,15 @@ import audioA312 from "../assets/A312.wav";
 
 
 function Bassneck() {
+  const [loading, setLoading] = useState(true);
+
   const audioFiles = {
     G: "../assets/G.wav",
     D: "../assets/D.wav",
     A: "../assets/A.wav",
     // Add more audio files as needed
   };
+  
   const [currentAudio, setCurrentAudio] = useState(null);
 
   const [audioElements, setAudioElements] = useState({});
